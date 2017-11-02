@@ -9,6 +9,22 @@
     height: 4.78rem;
     transition: .3s;
 }
+.m-ban .u-bg-fl{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    width: 50%;
+    height: 100%;
+}
+.m-ban .u-bg-fr{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 8;
+    width: 50%;
+    height: 100%;
+}
 .m-ban .u-list{
     overflow: hidden;
     width: 100%;
@@ -136,7 +152,7 @@
     position: absolute;
     top: .42rem;
     left: .3rem;
-    z-index: 5;
+    z-index: 9;
     width: .3rem;
     height: .3rem;
     align-items: center;
@@ -554,3 +570,37 @@
 .s-sym .u-bg{
     background-color: #2cbbde;
 }
+
+/*4*/
+.s-xmz .m-text{
+    padding: .35rem .6rem .6rem .6rem;
+}
+.s-xmz .m-text .u-ca{
+    color: #727171;
+}
+.s-xmz .m-tt{
+    padding-top: .6rem;
+    color: #ead672;
+}
+.s-xmz .u-h2{
+    border-color: #ead672;
+}
+.s-xmz .m-tt-2{
+    margin-bottom: .2rem;
+    color: #9e9f9f;
+    border-color: #9e9f9f;
+}
+.s-xmz .m-img{
+    padding-bottom: .07rem;
+}
+.s-xmz .u-bg{
+    background-color: #ead672;
+}
+.s-xmz .s-text-1{
+    padding-top: 0;
+}
+
+
+
+
+
