@@ -6,10 +6,13 @@ module.exports = function (app) {
     });
 
     // 首页
-    app.get('/index',function (req, res) {
+    app.get('/index', function (req, res) {
         res.render('index');
     });
 
+    app.get('/classify', function (req, res) {
+        res.render('classify/classify');
+    });
 
 
 };

@@ -5,8 +5,8 @@ html,body{
 .g-mn{
     width: 100%;
     height: 100%;
-    /*background-image: url("./../../images/index/bg-01.png");*/
-    background-color: #1b6d85;
+    background-image: url("./../../images/index/bg-01.png");
+    /*background-color: #1b6d85;*/
     background-size: 100% 100%;
 }
 
