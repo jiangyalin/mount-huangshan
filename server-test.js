@@ -1,7 +1,6 @@
 const path = require('path');
 const express = require('express');
 const app = express();
-const session = require('express-session');
 const pkg = require('./package');
 const routes = require('./routes/');
 const config = require('./config/default');
@@ -19,7 +18,7 @@ app.locals.blog = {
 
 routes(app);
 
-app.listen(8086,function () {
-    console.log('服务启动'+8086);
+app.listen(8085,function () {
+    console.log('服务启动'+8085);
 });
 

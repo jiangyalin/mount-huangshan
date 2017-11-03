@@ -10,9 +10,8 @@ module.exports = function (app) {
         res.render('index');
     });
 
-    app.get('/classify', function (req, res) {
-        res.render('classify/classify');
-    });
-
-
+    // app.get('/classify', function (req, res) {
+    //     res.render('classify/classify');
+    // });
+    
 };

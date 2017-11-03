@@ -6,7 +6,8 @@
   "author": "jiang",
   "license": "MIT",
   "scripts": {
-    "dev": "node server.js"
+    "start": "node server.js",
+    "dev": "node server-test.js"
   },
   "dependencies": {
     "ejs": "^2.5.6",
