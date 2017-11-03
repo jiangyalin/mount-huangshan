@@ -2,14 +2,14 @@
     /*overflow: hidden;*/
 /*}*/
 
-.m-ban{
+.g-ban{
     overflow: hidden;
     position: fixed;
     width: 100%;
     height: 4.78rem;
     transition: .3s;
 }
-.m-ban .u-bg-fl{
+.g-ban .u-bg-fl{
     position: absolute;
     top: 0;
     left: 0;
@@ -17,7 +17,7 @@
     width: 50%;
     height: 100%;
 }
-.m-ban .u-bg-fr{
+.g-ban .u-bg-fr{
     position: absolute;
     top: 0;
     right: 0;
@@ -25,57 +25,57 @@
     width: 50%;
     height: 100%;
 }
-.m-ban .u-list{
+.g-ban .u-list{
     overflow: hidden;
     width: 100%;
     height: 4.78rem;
     background-color: #3e693f;
     transition: .3s;
 }
-.m-ban .u-li{
+.g-ban .u-li{
     position: absolute;
     top: 0;
     width: 100%;
     opacity: .0;
     transition: .3s;
 }
-.m-ban .u-li[data-x='-150']{
+.g-ban .u-li[data-x='-150']{
     transform: translateX(-150%);
 }
-.m-ban .u-li[data-x='-100']{
+.g-ban .u-li[data-x='-100']{
     transform: translateX(-100%);
 }
-.m-ban .u-li[data-x='-50']{
+.g-ban .u-li[data-x='-50']{
     transform: translateX(-50%);
 }
-.m-ban .u-li[data-x='0']{
+.g-ban .u-li[data-x='0']{
     transform: translateX(0%);
     opacity: 1;
 }
-.m-ban .u-li[data-x='50']{
+.g-ban .u-li[data-x='50']{
     transform: translateX(50%);
 }
-.m-ban .u-li[data-x='100']{
+.g-ban .u-li[data-x='100']{
     transform: translateX(100%);
 }
-.m-ban .u-li[data-x='150']{
+.g-ban .u-li[data-x='150']{
     transform: translateX(150%);
 }
-.m-ban .u-img{
+.g-ban .u-img{
     display: block;
     width: 100%;
     transform: scale(.5);
     transition: .3s;
 }
-.m-ban .s-li-active .u-img{
+.g-ban .s-li-active .u-img{
     transform: scale(1);
 }
-.m-ban .u-text{
+.g-ban .u-text{
     width: 100%;
     height: .7rem;
     color: #fff;
 }
-.m-ban .u-tt{
+.g-ban .u-tt{
     position: absolute;
     top: 50%;
     z-index: 3;
@@ -83,28 +83,28 @@
     text-align: center;
     transition: .3s;
 }
-.m-ban .u-tt[data-x='-150']{
+.g-ban .u-tt[data-x='-150']{
     transform: translateY(50%) translateX(-150%);
 }
-.m-ban .u-tt[data-x='-100']{
+.g-ban .u-tt[data-x='-100']{
     transform: translateY(-50%) translateX(-100%);
 }
-.m-ban .u-tt[data-x='-50']{
+.g-ban .u-tt[data-x='-50']{
     transform: translateY(-50%) translateX(-50%);
 }
-.m-ban .u-tt[data-x='0']{
+.g-ban .u-tt[data-x='0']{
     transform: translateY(-50%) translateX(0%);
 }
-.m-ban .u-tt[data-x='50']{
+.g-ban .u-tt[data-x='50']{
     transform: translateY(-50%) translateX(50%);
 }
-.m-ban .u-tt[data-x='100']{
+.g-ban .u-tt[data-x='100']{
     transform: translateY(-50%) translateX(100%);
 }
-.m-ban .u-tt[data-x='150']{
+.g-ban .u-tt[data-x='150']{
     transform: translateY(-50%) translateX(150%);
 }
-.m-ban .u-h1{
+.g-ban .u-h1{
     height: .48rem;
     font-weight: 500;
     font-size: .38rem;
@@ -112,11 +112,11 @@
     transform: scale(.8);
     transition: .3s;
 }
-.m-ban .s-ban-tt-active .u-h1{
+.g-ban .s-ban-tt-active .u-h1{
     opacity: 1;
     transform: scale(1);
 }
-.m-ban .u-sn{
+.g-ban .u-sn{
     overflow: hidden;
     display: block;
     height: .22rem;
@@ -124,10 +124,10 @@
     opacity: 0;
     transition: .3s;
 }
-.m-ban .s-ban-tt-active .u-sn{
+.g-ban .s-ban-tt-active .u-sn{
     opacity: 1;
 }
-.m-ban .u-page{
+.g-ban .u-page{
     display: flex;
     position: absolute;
     bottom: .23rem;
@@ -137,17 +137,17 @@
     height: .12rem;
     justify-content: space-between;
 }
-.m-ban .u-pe-li{
+.g-ban .u-pe-li{
     width: .12rem;
     height: .12rem;
     border-radius: 50%;
     background-color: #888;
     transition: .3s;
 }
-.m-ban .s-pe-active{
+.g-ban .s-pe-active{
     background-color: #fff;
 }
-.m-ban .u-arrow-gp{
+.g-ban .u-arrow-gp{
     display: flex;
     position: absolute;
     top: .42rem;
@@ -159,14 +159,14 @@
     justify-content: center;
     transition: .3s;
 }
-.m-ban .u-arrow{
+.g-ban .u-arrow{
     position: relative;
     width: .3rem;
     height: .05rem;
     border-radius: .02rem;
     background-color: #fff;
 }
-.m-ban .u-arrow:after{
+.g-ban .u-arrow:after{
     position: absolute;
     top: 0;
     left: 0;
@@ -177,7 +177,7 @@
     background-color: #fff;
     transform: rotate(-45deg) translateY(-.05rem) translateX(.05rem);
 }
-.m-ban .u-arrow:before{
+.g-ban .u-arrow:before{
     position: absolute;
     top: 0;
     left: 0;
@@ -211,10 +211,10 @@
 .s-mn-gp-active{
     padding-top: 2.55rem;
 }
-.g-mn .m-mn-box{
+.g-mn-2 .m-mn-box{
     display: none;
 }
-.g-mn .s-mn-box-active{
+.g-mn-2 .s-mn-box-active{
     display: block;
 }
 
