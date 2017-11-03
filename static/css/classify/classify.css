@@ -105,6 +105,7 @@
     transform: translateY(-50%) translateX(150%);
 }
 .g-ban .u-h1{
+    font-family:"微软雅黑";
     height: .48rem;
     font-weight: 500;
     font-size: .38rem;
@@ -224,6 +225,7 @@
     transition: .3s;
 }
 .m-tt .u-h2{
+    font-family:"微软雅黑";
     padding-left: .22rem;
     width: 100%;
     height: .38rem;

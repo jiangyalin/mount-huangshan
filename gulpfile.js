@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var minifycss = require('gulp-minify-css');//压缩css
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');//压缩js
+var htmlmin = require('gulp-htmlmin');//压缩html
 var rename = require('gulp-rename');//更改文件名
 var del = require('del');
 var imagemin = require('gulp-imagemin');//压缩图片
@@ -23,6 +24,25 @@ gulp.task('minifyjs',function () {
     .pipe(uglify())
     .pipe(gulp.dest('static/js/'));
   console.log("js压缩成功");
+});
+
+//压缩html
+gulp.task('htmlmin',function () {
+  var options = {
+    removeComments: true,//清除HTML注释
+    collapseWhitespace: true,//压缩HTML
+    collapseBooleanAttributes: true,//省略布尔属性的值 <input checked="true"/> ==> <input />
+    removeEmptyAttributes: true,//删除所有空格作属性值 <input id="" /> ==> <input />
+    removeScriptTypeAttributes: true,//删除<script>的type="text/javascript"
+    removeStyleLinkTypeAttributes: true,//删除<style>和<link>的type="text/css"
+    minifyJS: true,//压缩页面JS
+    minifyCSS: true//压缩页面CSS
+  };
+  gulp.src(['views/**/*.html','!views/js/**/*.min.html'])
+    .pipe(rename({suffix:'.min'}))
+    .pipe(htmlmin(options))
+    .pipe(gulp.dest('views/**/*.html'));
+  console.log("html压缩成功");
 });
 
 //压缩图片

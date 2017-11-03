@@ -2,6 +2,9 @@ html,body{
     width: 100%;
     height: 100%;
 }
+body{
+      overflow: hidden;
+  }
 .g-mn{
     width: 100%;
     height: 100%;
@@ -53,6 +56,7 @@ html,body{
     transform: translateY(-50%);
 }
 .g-mn .m-ban .u-tt-a{
+    font-family:"微软雅黑";
     display: block;
     height: .45rem;
     font-size: .35rem;

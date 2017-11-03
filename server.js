@@ -1,7 +1,6 @@
 const path = require('path');
 const express = require('express');
 const app = express();
-const session = require('express-session');
 const pkg = require('./package');
 const routes = require('./routes/');
 const config = require('./config/default');
